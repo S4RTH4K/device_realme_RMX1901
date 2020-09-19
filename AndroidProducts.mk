@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_RMX1901.mk
+    $(LOCAL_DIR)/derp_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_RMX1901-userdebug \
-    xtended_RMX1901-eng
+    derp_RMX1901-userdebug \
+    derp_RMX1901-eng \
+    derp_RMX1901-user
