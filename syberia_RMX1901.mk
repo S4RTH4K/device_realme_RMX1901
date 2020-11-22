@@ -7,18 +7,15 @@
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common RevengeOS stuff
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common Syberia stuff
+$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official-ify
-REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := revengeos_RMX1901
+PRODUCT_NAME := syberia_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

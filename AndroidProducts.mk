@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_RMX1901.mk
+    $(LOCAL_DIR)/syberia_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_RMX1901-userdebug \
-    revengeos_RMX1901-eng
+    syberia_RMX1901-userdebug \
+    syberia_RMX1901-eng \
+    syberia_RMX1901-user
